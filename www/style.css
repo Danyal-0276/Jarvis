@@ -2,14 +2,14 @@ body {
   background-color: black;
   overflow-y: hidden;
   overflow-x: hidden;
-  height:100%;
+  height: 100%;
 }
 
-section{
-    margin-top: 50px;
+section {
+  margin-top: 50px;
 }
-.inner{
-    display: flex;
+.inner {
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
@@ -92,7 +92,7 @@ section{
   }
 }
 
-.h5{
-    text-align: center;
-    color: white;
+.h5 {
+  text-align: center;
+  color: white;
 }
