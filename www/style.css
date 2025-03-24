@@ -73,6 +73,23 @@ section {
   transition: 0.5s;
   animation: animate3 8s linear infinite;
 }
+
+.siri-message {
+  align-self: flex-start; /* Aligns to the left */
+  width: 100%; /* Full width */
+  padding-left: 20px; /* Adds left spacing */
+}
+
+.siri-message p {
+  text-align: left !important; /* Ensures left alignment */
+  font-size: 40px !important; /* Forces a larger font size */
+  line-height: 1.5; /* Improves readability */
+  color: white !important;
+  margin: 0; /* Removes unwanted margins */
+}
+
+
+
 .last {
   margin-top: 50px;
 }
@@ -223,3 +240,4 @@ input[type="text"] {
 }
 
 /* Input Filed End*/
+
