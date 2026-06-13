@@ -239,5 +239,72 @@ input[type="text"] {
   }
 }
 
-/* Input Filed End*/
+/* Chat transcript */
+.chat-transcript {
+  max-height: 180px;
+  overflow-y: auto;
+  margin: 10px 20%;
+  padding: 10px;
+  background: rgba(24, 24, 24, 0.7);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 13, 255, 0.3);
+}
+
+.voice-transcript {
+  max-height: 200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chat-bubble {
+  padding: 8px 14px;
+  margin: 6px 0;
+  border-radius: 12px;
+  max-width: 85%;
+  font-size: 14px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.chat-bubble.user {
+  background: rgba(0, 13, 255, 0.25);
+  color: #cce0ff;
+  margin-left: auto;
+  text-align: right;
+}
+
+.chat-bubble.assistant {
+  background: rgba(255, 255, 255, 0.08);
+  color: #e0e0e0;
+  margin-right: auto;
+}
+
+.chat-transcript::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-transcript::-webkit-scrollbar-thumb {
+  background: rgba(0, 13, 255, 0.4);
+  border-radius: 3px;
+}
+
+/* PIN overlay */
+.pin-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pin-box {
+  background: #181818;
+  border: 1px solid rgba(0, 13, 255, 0.5);
+  border-radius: 12px;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(0, 13, 255, 0.3);
+}
 

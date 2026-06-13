@@ -25,7 +25,3 @@ def takecammand():
         print("Say that again please...")
         return "None"
     return query.lower()
-        
-  
-text= takecammand()  
-speak(text)    

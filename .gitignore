@@ -1,1 +1,16 @@
-/envjarvis
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+envjarvis/
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
+document_index.json
